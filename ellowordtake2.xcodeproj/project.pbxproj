@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F43422D1E33E9C5008BEF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43422C1E33E9C5008BEF32 /* AppDelegate.swift */; };
+		1F43422F1E33E9C5008BEF32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43422E1E33E9C5008BEF32 /* ViewController.swift */; };
+		1F4342321E33E9C5008BEF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4342301E33E9C5008BEF32 /* Main.storyboard */; };
+		1F4342351E33E9C5008BEF32 /* ellowordtake2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4342331E33E9C5008BEF32 /* ellowordtake2.xcdatamodeld */; };
+		1F4342371E33E9C5008BEF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4342361E33E9C5008BEF32 /* Assets.xcassets */; };
+		1F43423A1E33E9C5008BEF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4342381E33E9C5008BEF32 /* LaunchScreen.storyboard */; };
+		1F4342451E33E9C5008BEF32 /* ellowordtake2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4342441E33E9C5008BEF32 /* ellowordtake2Tests.swift */; };
+		1F4342501E33E9C5008BEF32 /* ellowordtake2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43424F1E33E9C5008BEF32 /* ellowordtake2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4342411E33E9C5008BEF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4342211E33E9C5008BEF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4342281E33E9C5008BEF32;
+			remoteInfo = ellowordtake2;
+		};
+		1F43424C1E33E9C5008BEF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4342211E33E9C5008BEF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4342281E33E9C5008BEF32;
+			remoteInfo = ellowordtake2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4342291E33E9C5008BEF32 /* ellowordtake2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ellowordtake2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F43422C1E33E9C5008BEF32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F43422E1E33E9C5008BEF32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F4342311E33E9C5008BEF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4342341E33E9C5008BEF32 /* ellowordtake2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ellowordtake2.xcdatamodel; sourceTree = "<group>"; };
+		1F4342361E33E9C5008BEF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4342391E33E9C5008BEF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F43423B1E33E9C5008BEF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4342401E33E9C5008BEF32 /* ellowordtake2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ellowordtake2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4342441E33E9C5008BEF32 /* ellowordtake2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ellowordtake2Tests.swift; sourceTree = "<group>"; };
+		1F4342461E33E9C5008BEF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F43424B1E33E9C5008BEF32 /* ellowordtake2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ellowordtake2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F43424F1E33E9C5008BEF32 /* ellowordtake2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ellowordtake2UITests.swift; sourceTree = "<group>"; };
+		1F4342511E33E9C5008BEF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4342261E33E9C5008BEF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F43423D1E33E9C5008BEF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4342481E33E9C5008BEF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4342201E33E9C5008BEF32 = {
+			isa = PBXGroup;
+			children = (
+				1F43422B1E33E9C5008BEF32 /* ellowordtake2 */,
+				1F4342431E33E9C5008BEF32 /* ellowordtake2Tests */,
+				1F43424E1E33E9C5008BEF32 /* ellowordtake2UITests */,
+				1F43422A1E33E9C5008BEF32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F43422A1E33E9C5008BEF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4342291E33E9C5008BEF32 /* ellowordtake2.app */,
+				1F4342401E33E9C5008BEF32 /* ellowordtake2Tests.xctest */,
+				1F43424B1E33E9C5008BEF32 /* ellowordtake2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F43422B1E33E9C5008BEF32 /* ellowordtake2 */ = {
+			isa = PBXGroup;
+			children = (
+				1F43422C1E33E9C5008BEF32 /* AppDelegate.swift */,
+				1F43422E1E33E9C5008BEF32 /* ViewController.swift */,
+				1F4342301E33E9C5008BEF32 /* Main.storyboard */,
+				1F4342361E33E9C5008BEF32 /* Assets.xcassets */,
+				1F4342381E33E9C5008BEF32 /* LaunchScreen.storyboard */,
+				1F43423B1E33E9C5008BEF32 /* Info.plist */,
+				1F4342331E33E9C5008BEF32 /* ellowordtake2.xcdatamodeld */,
+			);
+			path = ellowordtake2;
+			sourceTree = "<group>";
+		};
+		1F4342431E33E9C5008BEF32 /* ellowordtake2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4342441E33E9C5008BEF32 /* ellowordtake2Tests.swift */,
+				1F4342461E33E9C5008BEF32 /* Info.plist */,
+			);
+			path = ellowordtake2Tests;
+			sourceTree = "<group>";
+		};
+		1F43424E1E33E9C5008BEF32 /* ellowordtake2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F43424F1E33E9C5008BEF32 /* ellowordtake2UITests.swift */,
+				1F4342511E33E9C5008BEF32 /* Info.plist */,
+			);
+			path = ellowordtake2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4342281E33E9C5008BEF32 /* ellowordtake2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4342541E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2" */;
+			buildPhases = (
+				1F4342251E33E9C5008BEF32 /* Sources */,
+				1F4342261E33E9C5008BEF32 /* Frameworks */,
+				1F4342271E33E9C5008BEF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ellowordtake2;
+			productName = ellowordtake2;
+			productReference = 1F4342291E33E9C5008BEF32 /* ellowordtake2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F43423F1E33E9C5008BEF32 /* ellowordtake2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4342571E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2Tests" */;
+			buildPhases = (
+				1F43423C1E33E9C5008BEF32 /* Sources */,
+				1F43423D1E33E9C5008BEF32 /* Frameworks */,
+				1F43423E1E33E9C5008BEF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4342421E33E9C5008BEF32 /* PBXTargetDependency */,
+			);
+			name = ellowordtake2Tests;
+			productName = ellowordtake2Tests;
+			productReference = 1F4342401E33E9C5008BEF32 /* ellowordtake2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F43424A1E33E9C5008BEF32 /* ellowordtake2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F43425A1E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2UITests" */;
+			buildPhases = (
+				1F4342471E33E9C5008BEF32 /* Sources */,
+				1F4342481E33E9C5008BEF32 /* Frameworks */,
+				1F4342491E33E9C5008BEF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F43424D1E33E9C5008BEF32 /* PBXTargetDependency */,
+			);
+			name = ellowordtake2UITests;
+			productName = ellowordtake2UITests;
+			productReference = 1F43424B1E33E9C5008BEF32 /* ellowordtake2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4342211E33E9C5008BEF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MadisonErmis;
+				TargetAttributes = {
+					1F4342281E33E9C5008BEF32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1F43423F1E33E9C5008BEF32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F4342281E33E9C5008BEF32;
+					};
+					1F43424A1E33E9C5008BEF32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F4342281E33E9C5008BEF32;
+					};
+				};
+			};
+			buildConfigurationList = 1F4342241E33E9C5008BEF32 /* Build configuration list for PBXProject "ellowordtake2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4342201E33E9C5008BEF32;
+			productRefGroup = 1F43422A1E33E9C5008BEF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4342281E33E9C5008BEF32 /* ellowordtake2 */,
+				1F43423F1E33E9C5008BEF32 /* ellowordtake2Tests */,
+				1F43424A1E33E9C5008BEF32 /* ellowordtake2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4342271E33E9C5008BEF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F43423A1E33E9C5008BEF32 /* LaunchScreen.storyboard in Resources */,
+				1F4342371E33E9C5008BEF32 /* Assets.xcassets in Resources */,
+				1F4342321E33E9C5008BEF32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F43423E1E33E9C5008BEF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4342491E33E9C5008BEF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4342251E33E9C5008BEF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F43422F1E33E9C5008BEF32 /* ViewController.swift in Sources */,
+				1F4342351E33E9C5008BEF32 /* ellowordtake2.xcdatamodeld in Sources */,
+				1F43422D1E33E9C5008BEF32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F43423C1E33E9C5008BEF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4342451E33E9C5008BEF32 /* ellowordtake2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4342471E33E9C5008BEF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4342501E33E9C5008BEF32 /* ellowordtake2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4342421E33E9C5008BEF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4342281E33E9C5008BEF32 /* ellowordtake2 */;
+			targetProxy = 1F4342411E33E9C5008BEF32 /* PBXContainerItemProxy */;
+		};
+		1F43424D1E33E9C5008BEF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4342281E33E9C5008BEF32 /* ellowordtake2 */;
+			targetProxy = 1F43424C1E33E9C5008BEF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F4342301E33E9C5008BEF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4342311E33E9C5008BEF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4342381E33E9C5008BEF32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4342391E33E9C5008BEF32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4342521E33E9C5008BEF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4342531E33E9C5008BEF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4342551E33E9C5008BEF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ellowordtake2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F4342561E33E9C5008BEF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ellowordtake2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F4342581E33E9C5008BEF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ellowordtake2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ellowordtake2.app/ellowordtake2";
+			};
+			name = Debug;
+		};
+		1F4342591E33E9C5008BEF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ellowordtake2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ellowordtake2.app/ellowordtake2";
+			};
+			name = Release;
+		};
+		1F43425B1E33E9C5008BEF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ellowordtake2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ellowordtake2;
+			};
+			name = Debug;
+		};
+		1F43425C1E33E9C5008BEF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ellowordtake2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = countrygirls.ellowordtake2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ellowordtake2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4342241E33E9C5008BEF32 /* Build configuration list for PBXProject "ellowordtake2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4342521E33E9C5008BEF32 /* Debug */,
+				1F4342531E33E9C5008BEF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4342541E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4342551E33E9C5008BEF32 /* Debug */,
+				1F4342561E33E9C5008BEF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F4342571E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4342581E33E9C5008BEF32 /* Debug */,
+				1F4342591E33E9C5008BEF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F43425A1E33E9C5008BEF32 /* Build configuration list for PBXNativeTarget "ellowordtake2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F43425B1E33E9C5008BEF32 /* Debug */,
+				1F43425C1E33E9C5008BEF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F4342331E33E9C5008BEF32 /* ellowordtake2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F4342341E33E9C5008BEF32 /* ellowordtake2.xcdatamodel */,
+			);
+			currentVersion = 1F4342341E33E9C5008BEF32 /* ellowordtake2.xcdatamodel */;
+			path = ellowordtake2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F4342211E33E9C5008BEF32 /* Project object */;
+}
